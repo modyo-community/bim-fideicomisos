@@ -12,7 +12,8 @@ export default function Findeicomiso() {
   const fideicomisos = [
     {id: '', name: '', alias: ''},
     {id: '3214394132', name: 'KYO - COSTELLA', alias: 'Fideicomiso 1'},
-    {id: '4354232543', name: 'BIM', alias: 'Fideicomiso 2'}
+    {id: '9867324534', name: 'Modyo', alias: 'Fideicomiso 2'},
+    {id: '4354232543', name: 'BIM', alias: 'Fideicomiso 3'}
   ];
 
   const [selectedFideicomiso, setSelectedFideicomiso] = useState({id: '', name: '', alias: ''});
