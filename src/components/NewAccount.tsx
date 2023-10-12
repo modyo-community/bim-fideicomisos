@@ -7,7 +7,7 @@ export default function NewAccount() {
     <div>
 
       <div className="row">
-        <div className="col-6 mb-3">
+        <div className="col-12 col-md-6 mb-3">
           <DInput
             innerId="accountNumber"
             label="Ingresa tu número de cuenta"
@@ -16,7 +16,7 @@ export default function NewAccount() {
             value=""
           />
       </div>
-      <div className="col-6 mb-3">
+      <div className="col-12 col-md-6 mb-3">
         <div className="d-flex mt-3">
           <div className="me-3 mb-3 mt-4">
           <DInputCheck

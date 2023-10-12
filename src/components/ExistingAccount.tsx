@@ -20,7 +20,7 @@ export default function ExistingAccount() {
   return (
     <div>
       <div className="row">
-        <div className="col-6 mb-3">
+        <div className="col-12 col-md-6 mb-3">
           <DInputSelect
             innerId="selectAccount"
             label="Selecciona cuenta"
@@ -30,7 +30,7 @@ export default function ExistingAccount() {
         </div>
       </div>
       <div className="row">
-        <div className="col-6 mb-3">
+        <div className="col-12 col-md-6 mb-3">
           <DInputSelect
             innerId="selectAmmount"
             label="Monto de la operación"
@@ -38,7 +38,7 @@ export default function ExistingAccount() {
             options={ammounts}
           />
       </div>
-      <div className="col-6 mb-3">
+      <div className="col-12 col-md-6 mb-3">
       <p className="label mb-3 small text-muted fw-bold">Tipo de Moneda</p>
         <div className="d-flex mt-3">
           <div className="me-3 mb-3">
@@ -62,7 +62,7 @@ export default function ExistingAccount() {
       </div>
     </div>
       <div className="row">
-        <div className="col-6 mb-3">
+        <div className="col-12 col-md-6 mb-3">
           <DInput
             innerId="inputReference"
             label="Referencia (Opcional)"
