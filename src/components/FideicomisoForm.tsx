@@ -23,19 +23,6 @@ export default function FideicomisoForm(props: any) {
     }
   ]
 
-  const accounts= [
-    {value: '0987654321', label: '0987654321'},
-    {value: '1234567890', label: '1234567890'},
-    {value: '5678901234', label: '5678901234'}
-  ];
-
-  const ammounts= [
-    {value: '10,000', label: '$10,000.00'},
-    {value: '20,000', label: '$20,000.00'},
-    {value: '30,000', label: '$30,000.00'},
-    {value: '40,000', label: '$40,000.00'},
-  ];
-
   const [selectedDestination, setSelectedDestination] = useState('existing');
   
   const changeExistingDestination = (item: any) => {
@@ -105,7 +92,7 @@ export default function FideicomisoForm(props: any) {
       <p className="label mt-4 mb-3 small text-muted fw-bold">Cuenta abono</p>
       <div className="d-flex mt-3">
         <div className="me-3 mb-3">
-        <DInputCheck
+          <DInputCheck
             innerId="existente"
             label="Cuenta existente"
             isChecked
@@ -122,7 +109,7 @@ export default function FideicomisoForm(props: any) {
             name="accountDestiny"
             onEventChange={(newValue) => changeNewgDestination(newValue)}
           />
-          </div>
+        </div>
       </div>
       {selectedDestination == 'existing' ? <ExistingAccount /> : null}
       {selectedDestination == 'new' ? <NewAccount /> : null}

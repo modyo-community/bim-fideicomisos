@@ -26,7 +26,7 @@ export default function Findeicomiso() {
   return (
     <div>
       <div className="row mb-8">
-        <div className="col-4">
+        <div className="col-12 col-md-4 mb-3 mb-md-0">
           <div className="p-4 bg-white w-100 rounded-2 shadow-sm">
             <p className="fs-5 mb-3 pb-3 border-bottom text-primary">Fideicomisos</p>
             <div className="mb-4">
@@ -51,7 +51,7 @@ export default function Findeicomiso() {
             </div>
           </div>
         </div>
-        <div className="col-8">
+        <div className="col-12 col-md-8">
           <div className="p-4 bg-white w-100 rounded-2 shadow-sm">
           {selectedFideicomiso.name.length == 0 ? <NoFideicomisoSelected /> : null}
           {selectedFideicomiso.name.length > 1 ? <FideicomisoForm selected={ selectedFideicomiso }/> : null}
