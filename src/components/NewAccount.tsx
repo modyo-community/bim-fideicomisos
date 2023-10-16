@@ -20,7 +20,7 @@ export default function NewAccount() {
         <div className="d-flex mt-3">
           <div className="me-3 mb-3 mt-4">
           <DInputCheck
-              innerId="cuentaCOrrecta"
+              innerId="cuentaCorrecta"
               label="La cuenta ingresada es correcta"
               type="checkbox"
             />
