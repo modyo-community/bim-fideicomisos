@@ -28,7 +28,7 @@ export default function Findeicomiso() {
       <div className="row mb-8">
         <div className="col-12 col-md-4 mb-3 mb-md-0">
           <div className="p-4 bg-white w-100 rounded-2 shadow-sm">
-            <p className="fs-5 mb-3 pb-3 border-bottom text-primary">Fideicomisos</p>
+            <p className="fs-5 mb-3 pb-3 border-bottom text-primary custom1">Fideicomisos</p>
             <div className="mb-4">
             <DInputSelect
               innerId="selectFideicomiso"
